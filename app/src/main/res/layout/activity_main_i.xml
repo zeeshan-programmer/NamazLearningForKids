@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dgold"
+    android:weightSum="8"
+    tools:context="com.makers.junaid.namazlearningforkids.MainIActivity">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="home"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left"
+            android:background="@drawable/info"
+            android:textColor="@color/dgold"/>
+    <LinearLayout
+        android:layout_weight="7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/lgold"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

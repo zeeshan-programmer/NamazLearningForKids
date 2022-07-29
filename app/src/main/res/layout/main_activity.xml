@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/dgold"
+    android:gravity="center"
+    tools:context="com.makers.junaid.namazlearningforkids.MainActivityActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+            <Button
+                android:id="@+id/infoBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="!"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="right"
+                android:background="@drawable/info"
+                android:textColor="@color/dgold"/>
+
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView1"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad1"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp" />
+            <Button
+                android:id="@+id/fajarBtn"
+                android:background="@drawable/button"
+                android:text="fajar-dawn"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView2"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad2"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp" />
+            <Button
+
+                android:layout_height="300dp"
+                android:id="@+id/zoharBtn"
+                android:background="@drawable/button"
+                android:text="zohar-noon"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                />
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView3"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad3"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp" />
+            <Button
+                android:layout_height="300dp"
+                android:id="@+id/asarBtn"
+                android:background="@drawable/button"
+                android:text="asar-Afternoon"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                />
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView4"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad4"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp" />
+            <Button
+                android:layout_height="300dp"
+                android:id="@+id/maghribBtn"
+                android:background="@drawable/button"
+                android:text="maghrib-sunset"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                />
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView5"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad5"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp" />
+            <Button
+                android:layout_height="300dp"
+                android:id="@+id/eshaBtn"
+                android:background="@drawable/button"
+                android:text="esha-night"
+                android:textSize="20dp"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                />
+            <com.google.android.gms.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_id"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp" />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>

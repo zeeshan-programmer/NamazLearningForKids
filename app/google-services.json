@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1011530043089",
+    "project_id": "namaz-learning-for-kids",
+    "storage_bucket": "namaz-learning-for-kids.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011530043089:android:bfa76f7ae29db10669bff0",
+        "android_client_info": {
+          "package_name": "com.makers.junaid.namazlearningforkids"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011530043089-liglpp160uccknkmdg8d08pgreq9pu6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.makers.junaid.namazlearningforkids",
+            "certificate_hash": "2adbe7d992f4141ddf2162f6a7844eef67758f76"
+          }
+        },
+        {
+          "client_id": "1011530043089-jgc1g3urhefeju3g32d89n14oc1c9cim.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgxxBmTdF9kNd73GghXDzc1fpEp6iPSSU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011530043089-jgc1g3urhefeju3g32d89n14oc1c9cim.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-2087576898425893~5219810582"
+    }
+  ],
+  "configuration_version": "1"
+}
